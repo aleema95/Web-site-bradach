@@ -16,7 +16,7 @@
  
 @import "bootstrap";
 
-.titulo-central h1, .navbar-brand {
+.titulo-central > h1, .navbar-brand {
   font-family: 'Charm', cursive;
   font-weight: 100;
   font-size: 300px;
@@ -39,5 +39,15 @@
 }
 
 .boton-contacto {
-  margin-left: 850px;
+  margin-left: 800px;
+  font-size: 20px;
+}
+
+.contacto-well {
+  border-style:solid;
+  margin-top: 150px;
+}
+
+.contactanos-texto {
+  max-height: 100px;
 }
